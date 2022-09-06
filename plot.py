@@ -7,7 +7,7 @@ def plot_loss_curve(history, x_label="Epochs", y_label="Loss"):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
 
-def plot_decition_boundary(model, X, y):
+def plot_decision_boundary(model, X, y):
     """
     Plots the decision boundary created by a model predicting on X
     """
